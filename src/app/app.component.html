@@ -1,0 +1,4 @@
+<h1>Dynamic component loader</h1>
+<button (click)="toggleComponents()">Toggle</button>
+<app-entry-component *ngIf="showComponents" [components]="components">
+</app-entry-component>

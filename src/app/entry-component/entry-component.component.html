@@ -1,0 +1,9 @@
+<d-component-loader
+  *ngFor="let component of components"
+  [component]="component"
+  [debug]="true"
+  (beforeLoad)="beforeComponentLoad()"
+  (componentLoaded)="componentLoaded($event)"
+  (componentLoadFailed)="componentLoadFailed($event)"
+  (eventEmitted)="eventEmitted($event)"
+></d-component-loader>

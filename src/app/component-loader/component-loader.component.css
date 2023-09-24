@@ -1,0 +1,26 @@
+div.component-container {
+  position: relative;
+  width: auto;
+  display: block;
+  min-height: 5em;
+  content: '';
+}
+
+div.debug {
+  border: 1px solid #cecece;
+}
+
+span.debug-heading {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #e2e2e2;
+  border: 1px solid #cecece;
+  padding: 0 0.5em;
+  opacity: 0.75;
+}
+
+span.debug-heading p {
+  font-size: 10px;
+  text-transform: lowercase;
+}
